@@ -1,0 +1,20 @@
+{
+  "name": "Data Preparation",
+  "color": "#F9BE40",
+  "items": [
+    {
+      "objectId": "compute_stock_prices_log_returns",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "stock_prices_log_returns",
+      "objectType": "DATASET"
+    }
+  ],
+  "shared": [],
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

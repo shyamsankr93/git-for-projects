@@ -1,0 +1,25 @@
+{
+  "uiData": {
+    "mode": "\u0026\u0026",
+    "$latestOperator": "\u0026\u0026",
+    "$filterOptions": "rules",
+    "conditions": [
+      {
+        "input": "is_anomaly",
+        "col": "mahalanobis_distance_without",
+        "$appliesTo": "none",
+        "num": 0,
+        "$label": "Is true",
+        "operator": "true"
+      }
+    ]
+  },
+  "$status": {
+    "validated": true,
+    "fullyTranslated": false,
+    "ok": false,
+    "message": "Filter expression is invalid"
+  },
+  "distinct": false,
+  "enabled": true
+}

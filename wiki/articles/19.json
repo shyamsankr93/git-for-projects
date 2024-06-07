@@ -1,0 +1,24 @@
+{
+  "name": "Visualization",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [],
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1631081650138
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1631081624347
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Release Notes",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [],
+  "versionTag": {
+    "versionNumber": 4,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1700818988853,
+    "extendedProperties": {}
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1678357524943,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

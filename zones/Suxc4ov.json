@@ -1,0 +1,40 @@
+{
+  "name": "Visualization",
+  "color": "#C82423",
+  "items": [
+    {
+      "objectId": "news_data_all_scored",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "evaluate_on_news_mahalanobis_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "news_mahalanobis_metrics",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "news_mahalanobis_scored",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "tickers_clustered_sectors",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_tickers_clustered_sectors",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "score_news_data_all_news",
+      "objectType": "RECIPE"
+    }
+  ],
+  "shared": [],
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

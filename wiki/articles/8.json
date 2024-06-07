@@ -1,0 +1,150 @@
+{
+  "name": "Input Zones",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "FLOW_ZONE",
+      "smartId": "yfePaaY",
+      "details": {
+        "objectDisplayName": "Input Data",
+        "userDisplayName": "david.behar",
+        "itemNotFound": true,
+        "failedToEnrichItem": true
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629273240495
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "6",
+      "details": {
+        "objectDisplayName": "Project Setup",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629273647734
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "FLOW_ZONE",
+      "smartId": "kLHDojR",
+      "details": {
+        "objectDisplayName": "Extra Financial Feed",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629274106476
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "FLOW_ZONE",
+      "smartId": "gG9qKCC",
+      "details": {
+        "objectDisplayName": "Real Time Data",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629274117875
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "news_today_grouped_scored",
+      "details": {
+        "objectDisplayName": "news_today_grouped_scored",
+        "datasetType": "Filesystem",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629359393166
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "news_today_prepared",
+      "details": {
+        "objectDisplayName": "news_today_prepared",
+        "datasetType": "Filesystem",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629359809434
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "FLOW_ZONE",
+      "smartId": "default",
+      "details": {
+        "objectDisplayName": "Input",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678437809267
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "m7RsACeOiJkK",
+      "details": {
+        "objectDisplayName": "Extra Financial Feed.png",
+        "size": 39715,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678437940998
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "PrpGxcxPFBUQ",
+      "details": {
+        "objectDisplayName": "Real Time Data.png",
+        "size": 40913,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678437941015
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "py8vrfKBT6QU",
+      "details": {
+        "objectDisplayName": "Input Zone.png",
+        "size": 30679,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678437941359
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "13",
+      "details": {
+        "objectDisplayName": "Data Model",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678438073181
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 50,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1678809410692
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1629272873443
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Historical News Scoring",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "FILE",
+      "smartId": "9gnyp7R6Enqe",
+      "details": {
+        "objectDisplayName": "News Scoring History.png",
+        "size": 335528,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1631081882528
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 4,
+    "lastModifiedBy": {
+      "login": "divya.thomas@dataiku.com"
+    },
+    "lastModifiedOn": 1632752508887
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1630916574984
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

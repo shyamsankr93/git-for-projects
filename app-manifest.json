@@ -1,0 +1,91 @@
+{
+  "projectExportManifest": {
+    "exportUploads": false,
+    "exportAllInputDatasets": true,
+    "exportAllDatasets": false,
+    "exportManagedFS": false,
+    "exportAnalysisModels": false,
+    "exportSavedModels": false,
+    "exportModelEvaluationStores": false,
+    "exportProjectResources": false,
+    "exportLabelingTasks": false,
+    "exportManagedFolders": false,
+    "exportAllInputManagedFolders": false,
+    "exportInsightsData": false,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedManagedFolders": [],
+    "includedModelEvaluationStores": [],
+    "includedCodeStudios": [],
+    "includedLabelingTasks": [],
+    "exportGitRepository": false
+  },
+  "instanceFeatures": {
+    "showFlowNavLink": true,
+    "showLabNavLink": true,
+    "showCodeNavLink": true,
+    "showSwitchToProjectViewButton": true,
+    "showVersionControlFeatures": true
+  },
+  "useAppHomepage": true,
+  "homepageSections": [
+    {
+      "sectionTitle": "Data Input",
+      "sectionText": "Configure the project input datasets. If you change the datasets connections, you can do so directly in the flow and connect to your data sources. Information about the data model is available in the [wiki](article:13)",
+      "tiles": [
+        {
+          "datasetName": "stock_prices_all",
+          "type": "DATASET_EDIT_SETTINGS",
+          "prompt": "Stock Prices"
+        },
+        {
+          "datasetName": "news_data",
+          "type": "DATASET_EDIT_SETTINGS",
+          "prompt": "Historical News"
+        },
+        {
+          "datasetName": "news_today",
+          "type": "DATASET_EDIT_SETTINGS",
+          "prompt": "Real Time News"
+        },
+        {
+          "datasetName": "tickers_information",
+          "type": "DATASET_EDIT_SETTINGS",
+          "prompt": "Ticker Information"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Build Project",
+      "sectionText": "Build the whole flow and browse through the alerts in the dashboard and the webapp that is published inside it.",
+      "tiles": [
+        {
+          "scenarioId": "Overnight_Batch",
+          "buttonText": "Run now",
+          "type": "SCENARIO_RUN",
+          "prompt": "Rebuild Flow"
+        },
+        {
+          "scenarioId": "Real_Time_Risk_Scoring",
+          "type": "SCENARIO_RUN",
+          "prompt": "Run News Scoring"
+        },
+        {
+          "dashboardId": "1J3K14Z",
+          "type": "DASHBOARD_LINK",
+          "prompt": "Open Dashboard"
+        }
+      ]
+    }
+  ],
+  "label": "News Sentiment Stock Alert System",
+  "shortDesc": "Use this app to adjust the list of tickers and new source with which analysis will be run. [See Requirements](https://knowledge.dataiku.com/latest/kb/industry-solutions/news-sentiment-stock-alert-system/news-sentiment-stock-alert-system.html#technical-requirements)",
+  "tags": [],
+  "imgPattern": 6,
+  "showInitials": false,
+  "instantiationPermission": "USE_APP_MASTER_PERMISSIONS",
+  "limitedVisibilityEnabled": "INHERIT",
+  "accessRequestsEnabled": "INHERIT",
+  "allowedMissingConnections": [],
+  "allowedMissingCodeEnvs": []
+}

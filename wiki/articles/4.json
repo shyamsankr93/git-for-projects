@@ -1,0 +1,81 @@
+{
+  "name": "Webapp",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "WEB_APP",
+      "smartId": "0a0bFw3",
+      "details": {
+        "objectDisplayName": "Stock Alert System Dashboard",
+        "webappType": "DASH",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1630666748861
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "15",
+      "details": {
+        "objectDisplayName": "Real Time News Scoring",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1631091105524
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "16",
+      "details": {
+        "objectDisplayName": "Case Study",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1631091113145
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "17",
+      "details": {
+        "objectDisplayName": "Historical Prices Anomaly Detection",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1631091127029
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "18",
+      "details": {
+        "objectDisplayName": "Historical News Scoring",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1631091135256
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 10,
+    "lastModifiedBy": {
+      "login": "divya.thomas@dataiku.com"
+    },
+    "lastModifiedOn": 1633073779108
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1629218305471
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Project Setup",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "7",
+      "details": {
+        "objectDisplayName": "Scenarios",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1630525251698
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "WEB_APP",
+      "smartId": "0a0bFw3",
+      "details": {
+        "objectDisplayName": "Stock Alert System Dashboard",
+        "webappType": "DASH",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1630525283027
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "PsNgLaqlXD1y",
+      "details": {
+        "objectDisplayName": "Dataiku App Data Input.png",
+        "size": 98124,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678439853927
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "BwXwEmw9ILax",
+      "details": {
+        "objectDisplayName": "Dataiku App Build Project.png",
+        "size": 88483,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678439854138
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "13",
+      "details": {
+        "objectDisplayName": "Data Model",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678439910832
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "SCENARIO",
+      "smartId": "Overnight_Batch",
+      "details": {
+        "objectDisplayName": "Overnight Batch",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678439980732
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "SCENARIO",
+      "smartId": "Real_Time_Risk_Scoring",
+      "details": {
+        "objectDisplayName": "Real Time Risk Scoring",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678439986530
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 34,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1678804414705
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1629270581274
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

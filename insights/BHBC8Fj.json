@@ -1,0 +1,29 @@
+{
+  "type": "filters",
+  "params": {
+    "datasetSmartName": "stock_prices_all"
+  },
+  "owner": "david.behar@dataiku.com",
+  "listed": true,
+  "name": "Filters on stock_prices_all",
+  "dashboardCreationId": "1J3K14Z",
+  "versionTag": {
+    "versionNumber": 14,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1678283998107
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1678279060267
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

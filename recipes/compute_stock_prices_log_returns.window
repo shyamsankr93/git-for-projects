@@ -1,0 +1,223 @@
+{
+  "computedColumns": [
+    {
+      "expr": "log(price)",
+      "mode": "GREL",
+      "name": "log_price",
+      "type": "double"
+    }
+  ],
+  "cumeDist": false,
+  "denseRank": false,
+  "engineParams": {
+    "hive": {
+      "addDkuUdf": false,
+      "executionEngine": "HIVESERVER2",
+      "hiveconf": [],
+      "inheritConf": "default",
+      "skipPrerunValidate": false
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "executionEngine": "SPARK_SUBMIT",
+      "overwriteOutputSchema": false,
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "autoModeRepartitionInto": 10,
+        "map": {},
+        "mode": "AUTO"
+      },
+      "skipPrerunValidate": false,
+      "sparkConfig": {
+        "conf": [],
+        "inheritConf": "default"
+      },
+      "useGlobalMetastore": false
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    }
+  },
+  "keys": [],
+  "legacyUnboundedWindowStreamBehavior": false,
+  "ntile": false,
+  "ntileValues": "10",
+  "outputColumnNameOverrides": {
+    "variable_1": "ticker"
+  },
+  "postFilter": {
+    "$status": {
+      "fullyTranslated": false,
+      "message": "Filter expression is invalid",
+      "ok": false,
+      "schema": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "ticker",
+            "type": "string"
+          },
+          {
+            "name": "log_price_lag_diff",
+            "type": "double"
+          }
+        ],
+        "userModified": false
+      },
+      "validated": true
+    },
+    "distinct": false,
+    "enabled": true,
+    "uiData": {
+      "$filterOptions": "rules",
+      "$latestOperator": "&&",
+      "conditions": [
+        {
+          "col": "date",
+          "input": "log_price_lag_diff",
+          "num": 0,
+          "operator": "not empty string"
+        }
+      ],
+      "mode": "&&"
+    }
+  },
+  "preFilter": {
+    "$status": {},
+    "distinct": true,
+    "enabled": false,
+    "uiData": {
+      "conditions": [
+        {
+          "col": "value",
+          "input": "date",
+          "num": 0,
+          "operator": "contains"
+        }
+      ],
+      "mode": "&&"
+    }
+  },
+  "rank": false,
+  "retrievedColumnsSelectionMode": "EXPLICIT",
+  "rowNumber": false,
+  "values": [
+    {
+      "$idx": 0,
+      "avg": false,
+      "column": "date",
+      "concat": false,
+      "concatDistinct": false,
+      "count": false,
+      "countDistinct": false,
+      "dateDiffUnit": "DAY",
+      "first": false,
+      "firstLastNotNull": false,
+      "lag": false,
+      "lagDiff": false,
+      "lagValues": "1",
+      "last": false,
+      "lead": false,
+      "leadDiff": false,
+      "leadValues": "1",
+      "max": false,
+      "min": false,
+      "stddev": false,
+      "sum": false,
+      "type": "date",
+      "value": true
+    },
+    {
+      "$idx": 1,
+      "$selected": false,
+      "avg": false,
+      "column": "ticker",
+      "concat": false,
+      "count": false,
+      "first": false,
+      "lag": false,
+      "lagDiff": false,
+      "last": false,
+      "lead": false,
+      "leadDiff": false,
+      "max": false,
+      "min": false,
+      "stddev": false,
+      "sum": false,
+      "type": "string",
+      "value": true
+    },
+    {
+      "$idx": 2,
+      "$selected": false,
+      "avg": false,
+      "column": "price",
+      "concat": false,
+      "count": false,
+      "first": false,
+      "lag": false,
+      "lagDiff": false,
+      "last": false,
+      "lead": false,
+      "leadDiff": false,
+      "max": false,
+      "min": false,
+      "stddev": false,
+      "sum": false,
+      "type": "double",
+      "value": false
+    },
+    {
+      "$idx": 3,
+      "$selected": false,
+      "avg": false,
+      "column": "log_price",
+      "concat": false,
+      "count": false,
+      "first": false,
+      "lag": false,
+      "lagDiff": true,
+      "lagValues": "1",
+      "last": false,
+      "lead": false,
+      "leadDiff": false,
+      "max": false,
+      "min": false,
+      "stddev": false,
+      "sum": false,
+      "type": "double",
+      "value": false
+    }
+  ],
+  "windows": [
+    {
+      "enableLimits": true,
+      "enableOrdering": true,
+      "enablePartitioning": true,
+      "followingRows": 0,
+      "limitFollowing": false,
+      "limitPreceding": true,
+      "orders": [
+        {
+          "column": "date",
+          "desc": false
+        }
+      ],
+      "partitioningColumns": [
+        "ticker"
+      ],
+      "precedingRows": 1,
+      "windowLimitMode": "ROWS",
+      "windowLowerBound": 1,
+      "windowUpperBound": 0
+    }
+  ]
+}

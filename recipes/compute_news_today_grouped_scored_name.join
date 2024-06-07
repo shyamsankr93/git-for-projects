@@ -1,0 +1,150 @@
+{
+  "computedColumns": [],
+  "enableAutoCastInJoinConditions": false,
+  "engineParams": {
+    "hive": {
+      "addDkuUdf": false,
+      "executionEngine": "HIVESERVER2",
+      "hiveconf": [],
+      "inheritConf": "default",
+      "skipPrerunValidate": false
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "executionEngine": "SPARK_SUBMIT",
+      "overwriteOutputSchema": false,
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "autoModeRepartitionInto": 10,
+        "map": {},
+        "mode": "AUTO"
+      },
+      "skipPrerunValidate": false,
+      "sparkConfig": {
+        "conf": [],
+        "inheritConf": "default"
+      },
+      "useGlobalMetastore": false
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    }
+  },
+  "joins": [
+    {
+      "conditionsMode": "AND",
+      "on": [
+        {
+          "column1": {
+            "name": "stock",
+            "table": 0
+          },
+          "column2": {
+            "name": "ticker",
+            "table": 1
+          },
+          "type": "EQ"
+        }
+      ],
+      "outerJoinOnTheLeft": true,
+      "table1": 0,
+      "table2": 1,
+      "type": "LEFT"
+    }
+  ],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "stock",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "title_concat",
+            "type": "string"
+          },
+          {
+            "name": "proba_false",
+            "type": "double"
+          },
+          {
+            "name": "proba_true",
+            "type": "double"
+          },
+          {
+            "name": "prediction",
+            "type": "string"
+          },
+          {
+            "name": "company",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
+  "selectedColumns": [
+    {
+      "name": "stock",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "date",
+      "table": 0,
+      "type": "date"
+    },
+    {
+      "name": "title_concat",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "proba_false",
+      "table": 0,
+      "type": "double"
+    },
+    {
+      "name": "proba_true",
+      "table": 0,
+      "type": "double"
+    },
+    {
+      "name": "prediction",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "company",
+      "table": 1,
+      "type": "string"
+    }
+  ],
+  "virtualInputs": [
+    {
+      "autoSelectColumns": false,
+      "computedColumns": [],
+      "index": 0,
+      "outputColumnsSelectionMode": "MANUAL",
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      }
+    },
+    {
+      "index": 1,
+      "outputColumnsSelectionMode": "MANUAL"
+    }
+  ]
+}

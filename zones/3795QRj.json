@@ -1,0 +1,36 @@
+{
+  "name": "Cross Data Analysis",
+  "color": "#4B8021",
+  "items": [
+    {
+      "objectId": "compute_reddit_mahalanobis_joined",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "news_mahalanobis_joined",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "news_mahalanobis_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_reddit_mahalanobis_joined_prepared_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "train_News_Score_Model",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "lu8Ph7Ob",
+      "objectType": "SAVED_MODEL"
+    }
+  ],
+  "shared": [],
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

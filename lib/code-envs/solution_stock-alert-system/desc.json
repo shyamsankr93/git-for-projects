@@ -1,0 +1,46 @@
+{
+    "pythonInterpreter": "PYTHON38",
+    "installCorePackages": true,
+    "corePackagesSet": "PANDAS10",
+    "installJupyterSupport": true,
+    "dockerImageResources": "INIT",
+    "updateResourcesApiNode": false,
+    "pythonInterpreterChangeHistory": [],
+    "containerCacheBustingLocation": "AFTER_START_DOCKERFILE",
+    "predefinedContainerHooks": [],
+    "conda": false,
+    "creationTag": {
+        "versionNumber": 0,
+        "lastModifiedBy": {
+            "login": "admin"
+        },
+        "lastModifiedOn": 1700834521919,
+        "extendedProperties": {}
+    },
+    "versionTag": {
+        "versionNumber": 0,
+        "lastModifiedBy": {
+            "login": "admin"
+        },
+        "lastModifiedOn": 1700834521919,
+        "extendedProperties": {}
+    },
+    "deploymentMode": "DESIGN_MANAGED",
+    "envSettings": {
+        "inheritGlobalSettings": true,
+        "condaInstallExtraOptions": [],
+        "condaCreateExtraOptions": [],
+        "pipInstallExtraOptions": [],
+        "virtualenvCreateExtraOptions": [],
+        "cranMirrorURL": "https://cloud.r-project.org",
+        "useConda": false
+    },
+    "owner": "admin",
+    "usableByAll": true,
+    "permissions": [],
+    "allContainerConfs": false,
+    "containerConfs": [],
+    "allSparkKubernetesConfs": false,
+    "sparkKubernetesConfs": [],
+    "rebuildDependentCodeStudioTemplates": "ASK"
+}

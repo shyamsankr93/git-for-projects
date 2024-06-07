@@ -1,0 +1,95 @@
+{
+  "name": "Scenarios",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "SCENARIO",
+      "smartId": "Overnight_Batch",
+      "details": {
+        "objectDisplayName": "Overnight Batch",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629366977843
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "SCENARIO",
+      "smartId": "Real_Time_Risk_Scoring",
+      "details": {
+        "objectDisplayName": "Real Time Risk Scoring",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629366993292
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "WEB_APP",
+      "smartId": "0a0bFw3",
+      "details": {
+        "objectDisplayName": "Stock Alert System Dashboard",
+        "webappType": "DASH",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629375276331
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "stock_prices_all",
+      "details": {
+        "objectDisplayName": "stock_prices_all",
+        "datasetType": "Filesystem",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678440075649
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "news_data",
+      "details": {
+        "objectDisplayName": "news_data",
+        "datasetType": "Filesystem",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678440085207
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "news_today",
+      "details": {
+        "objectDisplayName": "news_today",
+        "datasetType": "Filesystem",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678440175920
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 29,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1678809377718
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1629270595446
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

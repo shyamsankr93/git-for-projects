@@ -1,0 +1,153 @@
+{
+  "computedColumns": [],
+  "enableAutoCastInJoinConditions": false,
+  "engineParams": {
+    "hive": {
+      "addDkuUdf": false,
+      "executionEngine": "HIVESERVER2",
+      "hiveconf": [],
+      "inheritConf": "default",
+      "skipPrerunValidate": false
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "executionEngine": "SPARK_SUBMIT",
+      "overwriteOutputSchema": false,
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "autoModeRepartitionInto": 10,
+        "map": {},
+        "mode": "AUTO"
+      },
+      "skipPrerunValidate": false,
+      "sparkConfig": {
+        "conf": [],
+        "inheritConf": "default"
+      },
+      "useGlobalMetastore": false
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    }
+  },
+  "joins": [
+    {
+      "conditionsMode": "AND",
+      "on": [
+        {
+          "column1": {
+            "name": "ticker",
+            "table": 0
+          },
+          "column2": {
+            "name": "stock",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "date",
+            "table": 0
+          },
+          "column2": {
+            "name": "date",
+            "table": 1
+          },
+          "type": "EQ"
+        }
+      ],
+      "outerJoinOnTheLeft": true,
+      "rightLimit": {
+        "enabled": false,
+        "maxMatches": 1,
+        "type": "KEEP_LARGEST"
+      },
+      "table1": 0,
+      "table2": 1,
+      "type": "LEFT"
+    }
+  ],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "mahalanobis_distance_delta",
+            "type": "double"
+          },
+          {
+            "name": "is_anomaly",
+            "type": "boolean"
+          },
+          {
+            "name": "ticker",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "cluster",
+            "type": "string"
+          },
+          {
+            "name": "title_concat",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
+  "selectedColumns": [
+    {
+      "name": "mahalanobis_distance_delta",
+      "table": 0,
+      "type": "double"
+    },
+    {
+      "name": "is_anomaly",
+      "table": 0,
+      "type": "boolean"
+    },
+    {
+      "name": "ticker",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "date",
+      "table": 0,
+      "type": "date"
+    },
+    {
+      "name": "cluster",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "title_concat",
+      "table": 1,
+      "type": "string"
+    }
+  ],
+  "virtualInputs": [
+    {
+      "autoSelectColumns": false,
+      "index": 0,
+      "outputColumnsSelectionMode": "MANUAL"
+    },
+    {
+      "autoSelectColumns": false,
+      "index": 1,
+      "outputColumnsSelectionMode": "MANUAL"
+    }
+  ]
+}

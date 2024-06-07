@@ -1,0 +1,44 @@
+{
+  "name": "Real Time Data",
+  "color": "#F9BE40",
+  "items": [
+    {
+      "objectId": "news_today_grouped",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "news_today_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "news_today_grouped_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_news_today_prepared_unique",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "news_today_prepared_unique",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_news_data_prepared_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_news_today_grouped_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_news_today_grouped",
+      "objectType": "RECIPE"
+    }
+  ],
+  "shared": [],
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

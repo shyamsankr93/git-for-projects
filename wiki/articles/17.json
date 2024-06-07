@@ -1,0 +1,36 @@
+{
+  "name": "Historical Prices Anomaly Detection",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "FILE",
+      "smartId": "vzJeoMyjZq5l",
+      "details": {
+        "objectDisplayName": "Historical Prices.png",
+        "size": 241361,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1630920134542
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 3,
+    "lastModifiedBy": {
+      "login": "divya.thomas@dataiku.com"
+    },
+    "lastModifiedOn": 1632752461674
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1630916564197
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Data Model",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "6",
+      "details": {
+        "objectDisplayName": "Dataiku Application",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1631094288477
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "tickers_information",
+      "details": {
+        "objectDisplayName": "tickers_information",
+        "datasetType": "Filesystem",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678429468126
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "stock_prices_all",
+      "details": {
+        "objectDisplayName": "stock_prices_all",
+        "datasetType": "Filesystem",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678429475829
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "news_data",
+      "details": {
+        "objectDisplayName": "news_data",
+        "datasetType": "Filesystem",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678429490515
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "news_today",
+      "details": {
+        "objectDisplayName": "news_today",
+        "datasetType": "Filesystem",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678429500319
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 32,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1678437458537
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1629274342309
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

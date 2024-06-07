@@ -1,0 +1,52 @@
+{
+  "name": "Extra Financial Feed",
+  "color": "#F9BE40",
+  "items": [
+    {
+      "objectId": "compute_reddit_feed_1_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_reddit_feed_prepared_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "news_data_grouped",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "news_data_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "news_data_all",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_news_data_all_distinct",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "news_data_all_distinct",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_news_data_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_news_data_all_news",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_news_data_grouped",
+      "objectType": "RECIPE"
+    }
+  ],
+  "shared": [],
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "dataSpec": {
+    "inputDatasetSmartName": "stock_prices_log_returns",
+    "datasetSelection": {
+      "useMemTable": false,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "partitionSelectionMethod": "ALL",
+      "latestPartitionsN": 1,
+      "ordering": {
+        "enabled": false,
+        "rules": []
+      },
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "maxRecords": 100000,
+      "targetRatio": 0.02,
+      "withinFirstN": -1,
+      "maxReadUncompressedBytes": -1
+    },
+    "autoRefreshSample": true,
+    "refreshTrigger": 0,
+    "containerSelection": {
+      "containerMode": "INHERIT"
+    }
+  },
+  "rootCard": {
+    "type": "worksheet_root",
+    "confidenceLevel": 0.95,
+    "showConfidenceInterval": false,
+    "cards": [
+      {
+        "type": "univariate_header",
+        "showHistogram": true,
+        "showQuantile": true,
+        "showFrequencyTable": false,
+        "showSummary": true,
+        "showBoxPlot": true,
+        "xColumns": [
+          {
+            "name": "log_price_lag_diff",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "cards": [
+          {
+            "type": "column_card",
+            "column": {
+              "name": "log_price_lag_diff",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "log_price_lag_diff",
+                  "type": "CONTINUOUS"
+                },
+                "id": "MKspsWv"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "log_price_lag_diff",
+                  "type": "CONTINUOUS"
+                },
+                "id": "ImbhUyV"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "log_price_lag_diff",
+                  "type": "CONTINUOUS"
+                },
+                "id": "YPWo2Vr"
+              }
+            ],
+            "id": "dZcgJ5u"
+          }
+        ],
+        "splitBy": {
+          "groupingColumn": {
+            "name": "ticker",
+            "type": "CATEGORICAL"
+          },
+          "binningMode": "AUTO",
+          "maxValues": 10,
+          "groupWithOthers": false,
+          "customBinningBoundaries": [],
+          "groupWithAll": true
+        },
+        "id": "bF3T6Lm"
+      },
+      {
+        "type": "shapiro",
+        "confidenceLevel": 0.95,
+        "column": {
+          "name": "log_price_lag_diff",
+          "type": "CONTINUOUS"
+        },
+        "splitBy": {
+          "groupingColumn": {
+            "name": "ticker",
+            "type": "CATEGORICAL"
+          },
+          "binningMode": "AUTO",
+          "maxValues": 5,
+          "groupWithOthers": false,
+          "customBinningBoundaries": [],
+          "groupWithAll": true
+        },
+        "id": "f7PyioJ"
+      },
+      {
+        "type": "fit_distribution",
+        "distributions": [
+          {
+            "distribution": {
+              "type": "normal"
+            }
+          }
+        ],
+        "confidenceLevel": 0.95,
+        "column": {
+          "name": "log_price_lag_diff",
+          "type": "CONTINUOUS"
+        },
+        "id": "4TIPcCp"
+      }
+    ],
+    "id": "hTUIL1a"
+  },
+  "name": "Worksheet",
+  "versionTag": {
+    "versionNumber": 10,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1631630165536
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1623923545240
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

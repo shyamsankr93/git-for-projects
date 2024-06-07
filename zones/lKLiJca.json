@@ -1,0 +1,28 @@
+{
+  "name": "Stock Clustering",
+  "color": "#4B8021",
+  "items": [
+    {
+      "objectId": "tickers_clustered",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "score_computed_PCA_coordinates",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "675rzI2N",
+      "objectType": "SAVED_MODEL"
+    },
+    {
+      "objectId": "train_Clustering__KMEANS__on_computed_PCA_coordinates",
+      "objectType": "RECIPE"
+    }
+  ],
+  "shared": [],
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

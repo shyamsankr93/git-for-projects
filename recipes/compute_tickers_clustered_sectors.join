@@ -1,0 +1,165 @@
+{
+  "computedColumns": [],
+  "enableAutoCastInJoinConditions": false,
+  "engineParams": {
+    "hive": {
+      "addDkuUdf": false,
+      "executionEngine": "HIVESERVER2",
+      "hiveconf": [],
+      "inheritConf": "default",
+      "skipPrerunValidate": false
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "executionEngine": "SPARK_SUBMIT",
+      "overwriteOutputSchema": false,
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "autoModeRepartitionInto": 10,
+        "map": {},
+        "mode": "AUTO"
+      },
+      "skipPrerunValidate": false,
+      "sparkConfig": {
+        "conf": [],
+        "inheritConf": "default"
+      },
+      "useGlobalMetastore": false
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    }
+  },
+  "joins": [
+    {
+      "conditionsMode": "AND",
+      "on": [
+        {
+          "caseInsensitive": false,
+          "column1": {
+            "name": "ticker",
+            "table": 0
+          },
+          "column2": {
+            "name": "ticker",
+            "table": 1
+          },
+          "dateDiffUnit": "DAY",
+          "maxDistance": 0,
+          "maxMatches": 1,
+          "normalizeText": false,
+          "strict": false,
+          "type": "EQ"
+        }
+      ],
+      "outerJoinOnTheLeft": true,
+      "table1": 0,
+      "table2": 1,
+      "type": "LEFT"
+    }
+  ],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "PC1",
+            "type": "double"
+          },
+          {
+            "name": "PC2",
+            "type": "double"
+          },
+          {
+            "name": "PC3",
+            "type": "double"
+          },
+          {
+            "name": "PC4",
+            "type": "double"
+          },
+          {
+            "name": "ticker",
+            "type": "string"
+          },
+          {
+            "name": "cluster_labels",
+            "type": "string"
+          },
+          {
+            "name": "company",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
+  "selectedColumns": [
+    {
+      "name": "PC1",
+      "table": 0,
+      "type": "double"
+    },
+    {
+      "name": "PC2",
+      "table": 0,
+      "type": "double"
+    },
+    {
+      "name": "PC3",
+      "table": 0,
+      "type": "double"
+    },
+    {
+      "name": "PC4",
+      "table": 0,
+      "type": "double"
+    },
+    {
+      "name": "ticker",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "cluster_labels",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "company",
+      "table": 1,
+      "type": "string"
+    },
+    {
+      "name": "sector",
+      "table": 1,
+      "type": "string"
+    }
+  ],
+  "virtualInputs": [
+    {
+      "autoSelectColumns": false,
+      "computedColumns": [],
+      "index": 0,
+      "outputColumnsSelectionMode": "MANUAL",
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      }
+    },
+    {
+      "index": 1,
+      "outputColumnsSelectionMode": "MANUAL"
+    }
+  ]
+}

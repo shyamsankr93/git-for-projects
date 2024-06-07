@@ -1,0 +1,148 @@
+{
+  "name": "Stock Price Analysis Zones",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "FLOW_ZONE",
+      "smartId": "zzyxx42",
+      "details": {
+        "objectDisplayName": "Data Preparation",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629359935475
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "FLOW_ZONE",
+      "smartId": "5sULb43",
+      "details": {
+        "objectDisplayName": "Anomaly Detection",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629359943616
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "FLOW_ZONE",
+      "smartId": "mPHaLGm",
+      "details": {
+        "objectDisplayName": "PCA Construction",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629359952823
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "FLOW_ZONE",
+      "smartId": "lKLiJca",
+      "details": {
+        "objectDisplayName": "Stock Clustering",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629359967541
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "computed_PCA_coordinates",
+      "details": {
+        "objectDisplayName": "computed_PCA_coordinates",
+        "datasetType": "Filesystem",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629361119061
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "12",
+      "details": {
+        "objectDisplayName": "Anomaly Detection",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629362180159
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "anomalies",
+      "details": {
+        "objectDisplayName": "anomalies",
+        "datasetType": "Filesystem",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629362466479
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "JDvh2pgjdnDM",
+      "details": {
+        "objectDisplayName": "Data Preparation.png",
+        "size": 19712,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678438298406
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "mRIozrJ4634g",
+      "details": {
+        "objectDisplayName": "Anomaly Detection.png",
+        "size": 48432,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678438298435
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "7N6SeOFFVnzR",
+      "details": {
+        "objectDisplayName": "Stock Clustering.png",
+        "size": 35790,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678438298522
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "Ph5eWazz8E3I",
+      "details": {
+        "objectDisplayName": "PCA Construction.png",
+        "size": 30078,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678438298544
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 38,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1678438320970
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1629272984208
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

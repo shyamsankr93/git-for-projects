@@ -1,0 +1,52 @@
+{
+  "type": "step_based",
+  "name": "set_number_of_clusters",
+  "active": false,
+  "runAsUser": "shyam.sankararaman@dataiku.com",
+  "creationTag": {
+    "versionNumber": 7,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1678440302540,
+    "extendedProperties": {}
+  },
+  "checklists": {
+    "checklists": []
+  },
+  "delayedTriggersBehavior": {
+    "delayWhileRunning": true,
+    "squashDelayedTriggers": true,
+    "suppressTriggersWhileRunning": true
+  },
+  "tags": [],
+  "triggers": [],
+  "reporters": [],
+  "params": {
+    "steps": [
+      {
+        "id": "custom_python_TEyrES43y/I9tHUHWHDMnw",
+        "type": "custom_python",
+        "name": "Tune Model with Nb of Clusters",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "script": "import dataiku\nimport numpy as np\n\nproject_key \u003d dataiku.get_custom_variables()[\"projectKey\"]\nclient \u003d dataiku.api_client()\nproject \u003d client.get_project(project_key)\n\n# Listing ml_tasks :\nclustering_task \u003d [task for task in project.list_ml_tasks()[\u0027mlTasks\u0027] if task[\u0027mlTaskName\u0027]\u003d\u003d\u0027Cluster data\u0027][0]\n\nnb_tickers_dataset \u003d dataiku.Dataset(\u0027tickers_information\u0027)\nnb_tickers \u003d len(nb_tickers_dataset.get_dataframe())\n\n# Model tuning :\nml_task \u003d project.get_ml_task(analysis_id\u003dclustering_task[\u0027analysisId\u0027], mltask_id\u003dclustering_task[\u0027mlTaskId\u0027])\nsettings \u003d ml_task.get_settings()\n\nnb_clusters \u003d max(2, min(8, round(np.sqrt(np.sqrt(nb_tickers)))))\nsettings.get_algorithm_settings(\"KMEANS\")[\"k\"] \u003d [nb_clusters]\nsettings.save()\n\nvariables \u003d project.get_variables()\nvariables[\"standard\"][\"nb_clusters\"] \u003d nb_clusters\nproject.set_variables(variables)\n\n# Model training : \nml_task.start_train()\nml_task.wait_train_complete()\n\nlast_trained_model \u003d ml_task.get_trained_models_ids()[-1]\nsaved_model_id \u003d [p[\u0027id\u0027] for p in project.list_saved_models() if p[\u0027type\u0027]\u003d\u003d\u0027CLUSTERING\u0027][0]\n\nml_task.redeploy_to_flow(model_id\u003dlast_trained_model, \n                         saved_model_id\u003dsaved_model_id,\n                         activate\u003dTrue)\n",
+          "envSelection": {
+            "envMode": "INHERIT"
+          },
+          "proceedOnFailure": false
+        }
+      }
+    ]
+  },
+  "automationLocal": false,
+  "customFields": {}
+}

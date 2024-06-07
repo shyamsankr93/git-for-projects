@@ -1,0 +1,91 @@
+{
+  "name": "Scoring and Visualization Zones",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "4",
+      "details": {
+        "objectDisplayName": "Webapp",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629365298881
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "SAVED_MODEL",
+      "smartId": "lu8Ph7Ob",
+      "details": {
+        "objectDisplayName": "News Score Model",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629365409185
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "FLOW_ZONE",
+      "smartId": "EG2ddOW",
+      "details": {
+        "objectDisplayName": "Real Time Alert",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629365568855
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "FLOW_ZONE",
+      "smartId": "Suxc4ov",
+      "details": {
+        "objectDisplayName": "Visualization",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629365580271
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "aYJ7LPhuYAaE",
+      "details": {
+        "objectDisplayName": "Visualizations.png",
+        "size": 63934,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678438564554
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "XDFBwtvvllUT",
+      "details": {
+        "objectDisplayName": "Real Time Alerts.png",
+        "size": 60921,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678438564593
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 26,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1678438578385
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1629273033040
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Flow Zones",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "8",
+      "details": {
+        "objectDisplayName": "Input Zones",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629283770200
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "9",
+      "details": {
+        "objectDisplayName": "Stock Price Analysis Zones",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629283786299
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "10",
+      "details": {
+        "objectDisplayName": "Cross Data Analysis Zone",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629283799579
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "11",
+      "details": {
+        "objectDisplayName": "Scoring and Visualization Zones",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629283808709
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "HzwIPV4obHor",
+      "details": {
+        "objectDisplayName": "Flow Zones.png",
+        "size": 174768,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1630508933448
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 20,
+    "lastModifiedBy": {
+      "login": "divya.thomas@dataiku.com"
+    },
+    "lastModifiedOn": 1632752171078
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1629270566079
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

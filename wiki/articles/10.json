@@ -1,0 +1,70 @@
+{
+  "name": "Cross Data Analysis Zone",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "FLOW_ZONE",
+      "smartId": "3795QRj",
+      "details": {
+        "objectDisplayName": "Cross Data Analysis",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629362610325
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "SAVED_MODEL",
+      "smartId": "lu8Ph7Ob",
+      "details": {
+        "objectDisplayName": "News Score Model",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629364849981
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "INSIGHT",
+      "smartId": "RwBQsO4",
+      "details": {
+        "objectDisplayName": "Full report of model News Score Model",
+        "insightType": "saved-model_report",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629364867483
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "COnTJ33JcSIH",
+      "details": {
+        "objectDisplayName": "Cross Data.png",
+        "size": 46180,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1678438370080
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 19,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1678438374783
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1629272999571
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

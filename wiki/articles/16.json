@@ -1,0 +1,58 @@
+{
+  "name": "Case Study",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "FILE",
+      "smartId": "BRNrvO5tJlP6",
+      "details": {
+        "objectDisplayName": "Case Study 2.png",
+        "size": 128554,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1630917005772
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "tLFANUx84E20",
+      "details": {
+        "objectDisplayName": "Case Study 1.png",
+        "size": 223478,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1630917005800
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "8B8u5QphBqio",
+      "details": {
+        "objectDisplayName": "Case Study 3.png",
+        "size": 223479,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1630917005825
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 10,
+    "lastModifiedBy": {
+      "login": "divya.thomas@dataiku.com"
+    },
+    "lastModifiedOn": 1632752441334
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1630916544849
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

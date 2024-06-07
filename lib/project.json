@@ -1,0 +1,46 @@
+{
+    "version": "1.1.1",
+    "type": "INDUSTRY_SOLUTION",
+    "meta": {
+        "name": "News Sentiment Stock Alert System",
+        "solution_type": [
+            "Plug and Play"
+        ],
+        "solution_line_of_business": [
+            "Markets & Investments"
+        ],
+        "solution_category": [
+            "Financial Services & Insurance"
+        ],
+        "main_industry": "financial-services",
+        "blockCloud": "false",
+        "section": "Solutions",
+        "description": "Real-time measurement of news headlines\u2019 impact on firm-level stock price volatility",
+        "long_description": "In this plug and play solution, we assess all customers in a transactions dataset against those 3 criteria before segmenting customers across homogenous groups of users (segments): from the \u201chibernating\u201d to the \u201cchampions\u201d every consumer belongs to one segment which can evolve over time depending on the purchases made. Brands are therefore able to push the right offer/product to the right consumer (segment). Doing so will foster loyalty and increase the consumer lifetime value for the brand, while consumers will have a better purchase experience while benefiting from a more personalized journey.",
+        "web_id": "solution-news-sentiment-stock-alert-system",
+        "wordpress_url": "news-sentiment-stock-alert-system",
+        "flag_release": null,
+        "flag_max_date": null
+    },
+    "requirements": {
+        "code_envs": [
+            {
+                "name": "solution_stock-alert-system",
+                "lang": "PYTHON",
+                "deploymentMode": "DESIGN_MANAGED",
+                "pythonInterpreter": "PYTHON38",
+                "packages": [
+                    "scikit-learn>=1.0,<1.1",
+                    "dash==2.7",
+                    "dash_bootstrap_components==1.2.1",
+                    "tzlocal==4.2",
+                    "plotly==5.13.0"
+                ],
+                "conda": false,
+                "installCorePackages": true,
+                "corePackagesSet": "PANDAS10",
+                "installJupyterSupport": true
+            }
+        ]
+    }
+}

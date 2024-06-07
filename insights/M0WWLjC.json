@@ -1,0 +1,29 @@
+{
+  "type": "filters",
+  "params": {
+    "datasetSmartName": "tickers_clustered_sectors"
+  },
+  "owner": "david.behar@dataiku.com",
+  "listed": true,
+  "name": "Filters on tickers_clustered_sectors",
+  "dashboardCreationId": "1J3K14Z",
+  "versionTag": {
+    "versionNumber": 11,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1678283983873
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1678283218010
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Real Time Alert",
+  "color": "#C82423",
+  "items": [
+    {
+      "objectId": "news_today_grouped_scored",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "news_today_scored",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_news_today_grouped_scored_name",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "news_today_grouped_scored_name",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "score_news_today_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "score_news_today_grouped_prepared",
+      "objectType": "RECIPE"
+    }
+  ],
+  "shared": [],
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

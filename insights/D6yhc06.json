@@ -1,0 +1,74 @@
+{
+  "type": "eda",
+  "params": {
+    "card": {
+      "type": "shapiro",
+      "confidenceLevel": 0.95,
+      "column": {
+        "name": "log_price_lag_diff",
+        "type": "CONTINUOUS"
+      },
+      "splitBy": {
+        "groupingColumn": {
+          "name": "ticker",
+          "type": "CATEGORICAL"
+        },
+        "binningMode": "AUTO",
+        "maxValues": 5,
+        "groupWithOthers": false,
+        "customBinningBoundaries": [],
+        "groupWithAll": true
+      },
+      "id": "f7PyioJ"
+    },
+    "dataSpec": {
+      "inputDatasetSmartName": "stock_prices_log_returns",
+      "datasetSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": true,
+      "refreshTrigger": 0,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "owner": "david.behar@dataiku.com",
+  "listed": true,
+  "name": "Shapiro-Wilk normality test on log_price_lag_diff ",
+  "dashboardCreationId": "1J3K14Z",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1675673651414
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1675673651414
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

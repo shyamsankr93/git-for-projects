@@ -1,0 +1,82 @@
+{
+  "tags": {
+    "webapp": {
+      "color": "#94be8e"
+    },
+    "SolutionCategory:Financial Services \u0026 Insurance": {
+      "color": "#B66D5F"
+    },
+    "solutionLineOfBusiness:Markets \u0026 Investments": {
+      "color": "#de1ea5"
+    },
+    "recipe-editor": {
+      "color": "#1ac2ab"
+    },
+    "financial services": {
+      "color": "#28aadd"
+    },
+    "Section:Solutions": {
+      "color": "#2CDAC0"
+    },
+    "solutionLineOfBusiness:FSI Core": {
+      "color": "#a088bd"
+    },
+    "deleted-recipe-editor": {
+      "color": "#90a8b7"
+    },
+    "downloads": {
+      "color": "#de1ea5"
+    },
+    "Industry Solution": {
+      "color": "#77bec2"
+    },
+    "imported": {
+      "color": "#263238"
+    },
+    "downlo": {
+      "color": "#a088bd"
+    },
+    "Version:1.1": {
+      "color": "#123883"
+    },
+    "gallery": {
+      "color": "#FFD83D"
+    },
+    "SolutionLineOfBusiness:Markets \u0026 Investments": {
+      "color": "#BEE10D"
+    },
+    "solutionCategories:Financial Services \u0026 Insurance": {
+      "color": "#FFD83D"
+    },
+    "SolutionType:Plug and Play": {
+      "color": "#23E5E8"
+    },
+    "visual recipe": {
+      "color": "#FFD83D"
+    },
+    "Version:1.1.1": {
+      "color": "#77bec2"
+    },
+    "dataiku-application": {
+      "color": "#1ac2ab"
+    },
+    "machine learning": {
+      "color": "#28aadd"
+    },
+    "sample": {
+      "color": "#123883"
+    },
+    "Dataiku Solution": {
+      "color": "#d66b9b"
+    },
+    "SolutionLineOfBusiness:Markets / Investment / Trading": {
+      "color": "#0f6d82"
+    },
+    "plug-and-play": {
+      "color": "#de1ea5"
+    },
+    "solutionType:Plug and Play": {
+      "color": "#90a8b7"
+    }
+  }
+}

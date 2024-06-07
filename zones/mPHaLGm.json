@@ -1,0 +1,28 @@
+{
+  "name": "PCA Construction",
+  "color": "#F9BE40",
+  "items": [
+    {
+      "objectId": "compute_price_by_ticker",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "price_by_ticker",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_computed_PCA_coordinates",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "computed_PCA_coordinates",
+      "objectType": "DATASET"
+    }
+  ],
+  "shared": [],
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

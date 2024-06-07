@@ -1,0 +1,60 @@
+{
+  "name": "Anomaly Detection",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "INSIGHT",
+      "smartId": "YrThxo5",
+      "details": {
+        "objectDisplayName": "Shapiro-Wilk normality test on log_price_lag_diff ",
+        "insightType": "eda",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629276344929
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "INSIGHT",
+      "smartId": "9poTQwA",
+      "details": {
+        "objectDisplayName": "PC1 vs PC2 on computed_PCA_coordinates",
+        "insightType": "chart",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629279991985
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "STATISTICS_WORKSHEET",
+      "smartId": "JKHMBxQ1bV",
+      "details": {
+        "objectDisplayName": "Worksheet",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1629365451045
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 41,
+    "lastModifiedBy": {
+      "login": "divya.thomas@dataiku.com"
+    },
+    "lastModifiedOn": 1633073950402
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1629274241911
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

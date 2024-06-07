@@ -1,0 +1,47 @@
+{
+  "name": "Real Time News Scoring",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "FILE",
+      "smartId": "A60k0QiQMB7F",
+      "details": {
+        "objectDisplayName": "Webapp Real Time Alerts.png",
+        "size": 246096,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1631088680789
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "MRFbSO48eQ0Y",
+      "details": {
+        "objectDisplayName": "Webapp Real Time News.png",
+        "size": 154146,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1631088680838
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 7,
+    "lastModifiedBy": {
+      "login": "divya.thomas@dataiku.com"
+    },
+    "lastModifiedOn": 1632752413154
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1630670554383
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

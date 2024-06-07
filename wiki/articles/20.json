@@ -1,0 +1,69 @@
+{
+  "name": "Dashboard",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DASHBOARD",
+      "smartId": "1J3K14Z",
+      "details": {
+        "objectDisplayName": "Alert Dashboard",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1631091082942
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "14",
+      "details": {
+        "objectDisplayName": "Risk Scoring Model",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1631092933981
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "12",
+      "details": {
+        "objectDisplayName": "Anomaly Detection",
+        "userDisplayName": "david.behar"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1631093138467
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "RC10vw4Qzeca",
+      "details": {
+        "objectDisplayName": "Clusters.png",
+        "size": 180264,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "david.behar@dataiku.com",
+      "attachedOn": 1631093809641
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 21,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1678440211455
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "david.behar@dataiku.com"
+    },
+    "lastModifiedOn": 1631081670831
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

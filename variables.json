@@ -1,0 +1,12 @@
+{
+  "lookback": 10,
+  "nb_pages": 100,
+  "date_to_compute": "2022-10-25,2022-10-26,2022-10-27,2022-10-28,2022-10-31,2022-11-01,2022-11-02,2022-11-03",
+  "data_source": "eodhistoricaldata",
+  "anomaly_threshold": 4,
+  "min_number_rows": 90,
+  "first_run": "",
+  "nb_clusters": 5,
+  "timeout_day": 30,
+  "version": "1.1.0"
+}
