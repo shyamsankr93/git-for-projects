@@ -4,6 +4,10 @@
       "remote": "git@github.com:shyamsankr93/workshop-project.git",
       "checkout": "refs/heads/main",
       "remotePath": "",
+      "lastHash": "9c0f8aefbc7f514c1a26594013fe3bfd935bd993",
+      "conflictingFiles": [],
+      "resolvedFiles": [],
+      "faultyHash": "",
       "isDirty": false
     }
   },
