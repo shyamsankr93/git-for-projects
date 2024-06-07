@@ -1,7 +1,15 @@
 {
-  "gitReferences": {},
+  "gitReferences": {
+    "python/workshop-code": {
+      "remote": "git@github.com:shyamsankr93/workshop-project.git",
+      "checkout": "refs/heads/main",
+      "remotePath": "",
+      "isDirty": false
+    }
+  },
   "pythonPath": [
-    "python"
+    "python",
+    "python/workshop-code"
   ],
   "rsrcPath": [
     "R"
