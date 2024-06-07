@@ -1,6 +1,7 @@
 {
   "pythonBatchSize": 100000,
   "keptInputColumns": [],
+  "outputModelMetadata": true,
   "filterInputColumns": false,
   "backendType": "PY_MEMORY",
   "removeOutliers": false,

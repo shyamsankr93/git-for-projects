@@ -43,19 +43,13 @@
     }
   },
   "labels": [],
-  "versionTag": {
-    "versionNumber": 8,
-    "lastModifiedBy": {
-      "login": "david.behar@dataiku.com"
-    },
-    "lastModifiedOn": 1678440400636
-  },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1624454784345
+    "lastModifiedOn": 1624454784345,
+    "extendedProperties": {}
   },
   "shortDesc": "",
   "tags": [],
