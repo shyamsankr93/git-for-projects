@@ -3,14 +3,6 @@
   "name": "set_number_of_clusters",
   "active": false,
   "runAsUser": "shyam.sankararaman@dataiku.com",
-  "creationTag": {
-    "versionNumber": 7,
-    "lastModifiedBy": {
-      "login": "david.behar@dataiku.com"
-    },
-    "lastModifiedOn": 1678440302540,
-    "extendedProperties": {}
-  },
   "checklists": {
     "checklists": []
   },
