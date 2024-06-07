@@ -87,7 +87,11 @@
       {"name":"PC3","type":"double"},
       {"name":"PC4","type":"double"},
       {"name":"ticker","type":"string"},
-      {"name":"cluster_labels","type":"string"}
+      {"name":"cluster_labels","type":"string"},
+      {"name":"smmd_savedModelId","type":"string"},
+      {"name":"smmd_modelVersion","type":"string"},
+      {"name":"smmd_fullModelId","type":"string"},
+      {"name":"smmd_predictionTime","type":"date"}
     ],
     "userModified": true
   },
