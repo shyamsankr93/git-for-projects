@@ -88,7 +88,8 @@
       {"name":"proba_false","type":"double"},
       {"name":"proba_true","type":"double"},
       {"name":"prediction","type":"string"},
-      {"name":"company","type":"string"}
+      {"name":"ti_ticker","type":"string"},
+      {"name":"ti_company","type":"string"}
     ],
     "userModified": true
   },
